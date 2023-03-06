@@ -102,6 +102,10 @@ td {
     border: 1px solid black;
 }
 
+tr:hover {
+    background-color: rgb(106, 118, 119);
+}
+
 th {
     border:1px solid black;
 }
