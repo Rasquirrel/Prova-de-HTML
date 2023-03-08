@@ -202,7 +202,7 @@ td {
     border: 1px solid black;
 }
 
-tr:hover {
+tr.linha:hover {
     color: white;
     background-color: rgb(106, 118, 119);
 }
