@@ -78,7 +78,7 @@ nav > a:hover::after {
     text-decoration: underline;
 }
 
-article {
+section {
     margin: 0px auto 2% auto;
     max-width: 960px;
     height: 800px;
@@ -87,6 +87,14 @@ article {
     padding: 10px;
     background-color: #E8EBF7;
     box-shadow: 0px 0px 20px #2f2f3096;
+    
+    
+}
+
+article {
+    max-width: 960px;
+    height: 500px;
+    text-align: justify;
     overflow: auto;
 }
 
@@ -96,8 +104,21 @@ article > img {
     margin-bottom: 15px;
 }
 
-section > h2 {
+aside {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #E94F37;
+    max-width: 960px;
+    height: 220px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#titulo > h2 {
     padding: 10px;
     font-family:'Tilt Neon', cursive;;
     text-align: center;
 }
+
