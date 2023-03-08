@@ -203,8 +203,11 @@ td {
 }
 
 tr:hover {
+    color: white;
     background-color: rgb(106, 118, 119);
 }
+
+
 
 th {
     text-align: center;
