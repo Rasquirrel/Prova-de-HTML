@@ -107,13 +107,7 @@ article#tabela {
     text-align: justify;
 }
 
-article#galeria {
-    display: grid;
-    grid-template-columns: auto auto;
-    width: 960px;
-    height: 500px;
-    text-align: justify;
-}
+
 
 article > img {
     float: left;
@@ -214,3 +208,22 @@ th {
     border:1px solid black;
 }
 
+
+/*Declarações específicas para galeria.html*/
+
+article#galeria {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    width: 960px;
+    height: 500px;
+
+}
+
+div.caixa {
+    margin-left: 10rem;
+    max-width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: #44BBA4;
+}
