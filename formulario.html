@@ -5,43 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style-formulario.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <header>
-            <h1>SOTECH SISTEMAS</h1>
-        </header>
-        <nav>
-            <a href="index.html">NOTICIA</a>
-            <a href="#">CADASTRO</a>
-            <a href="tabela.html">TABELA</a>
-            <a href="galeria.html">GALERIA</a>
-        </nav>
-        <article>
-            <h2>CADASTRO DE PACIENTES</h2>
-            <form action="">
-                <label for="">Nome</label><br>
-                <input type="text"><br>
-
-                <label for="">Data Nasc.</label><br>
-                <input type="date"><br>
-
-                <label for="">Escolaridade</label><br>
-                <select name="" id="">
-                    <option value="">Superior Incompleto</option>
-                    <option value="">Superior Completo</option>
-                </select><br>
-
-                <label for="">Observações</label><br>
-                <textarea name="" id="" cols="65" rows="4"></textarea>
-            </form>
-        </article>
-        <aside>
-            <img class="parceiros" src="imagens/intel.jpg" alt="intel">
-            <img class="parceiros" src="imagens/lenovo.png" alt="lenovo">
-            <img class="parceiros" src="imagens/pichau.jpg" alt="pichau">
-        </aside>
-    </main>
+    <header>
+        <h1>SOTECH SISTEMAS</h1>
+        <p>Seu site de tecnlogias</p>
+    </header>
+    <nav>
+        <a href="index.html">NOTICIA</a>
+        <a href="#">CADASTRO</a>
+        <a href="tabela.html">TABELA</a>
+        <a href="galeria.html">GALERIA</a>
+    </nav>
+        <section>
+            <article class="form">
+                <h2 class="titulo">CADASTRO DE PACIENTES</h2>
+                <form action="">
+                    <label for="">Nome</label><br>
+                    <input type="text" placeholder="Digite seu nome" required hi><br>
+                    <label for="">Data Nasc.</label><br>
+                    <input type="date"><br>
+                    <label for="">Escolaridade</label><br>
+                    <select name="" id="">
+                        <option value="">Superior Incompleto</option>
+                        <option value="">Superior Completo</option>
+                    </select><br>
+                    <label for="">Observações</label><br>
+                    <textarea name="" id="" cols="65" rows="4"></textarea><br>
+                    <input  class="enviar" type="submit" value="Enviar">
+                </form>
+            </article>
+            <aside class="form">
+                <img class="parceiros" src="imagens/intel-pq.jpg" alt="intel">
+                <img class="parceiros" src="imagens/lenovo-pq.png" alt="lenovo">
+            </aside>
+        </section>
+        
 </body>
 </html>
