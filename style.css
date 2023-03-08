@@ -107,6 +107,14 @@ article#tabela {
     text-align: justify;
 }
 
+article#galeria {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 960px;
+    height: 500px;
+    text-align: justify;
+}
+
 article > img {
     float: left;
     margin-right:20px;
@@ -202,3 +210,4 @@ th {
     text-align: center;
     border:1px solid black;
 }
+
