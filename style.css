@@ -203,7 +203,7 @@ td {
 
 tr.linha:hover {
     color: white;
-    background-color: rgb(106, 118, 119);
+    background-color: #6a7677;
 }
 
 
@@ -231,6 +231,10 @@ div.caixa {
     height: 200px;
     border: 1px solid black;
     background-color: #44BBA4;
+}
+
+div.caixa:hover {
+    box-shadow: 10px 10px 15px #d0d2dd;
 }
 
 
