@@ -14,6 +14,8 @@ cores:
 #E94F37
 */
 
+/*Configurações que serão usadas em todas as páginas, mas com maior foco em index.html*/
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -99,13 +101,7 @@ article#index {
     overflow: auto;
 }
 
-article#tabela {
-    display: table-cell;
-    vertical-align: middle;
-    width: 960px;
-    height: 500px;
-    text-align: justify;
-}
+
 
 
 
@@ -127,6 +123,7 @@ aside {
     border-bottom-right-radius: 15px;
 }
 
+/*Configurações específicas para a página de formulario.html*/
 aside.form {
     margin-top: 76px;
     display: flex;
@@ -181,6 +178,14 @@ input.enviar {
     text-align: center;
 }
 
+/* Específicos para a página de tabela.html */
+article#tabela {
+    display: table-cell;
+    vertical-align: middle;
+    width: 960px;
+    height: 500px;
+    text-align: justify;
+}
 
 table {
     margin-top: 50px;
@@ -226,4 +231,65 @@ div.caixa {
     height: 200px;
     border: 1px solid black;
     background-color: #44BBA4;
+}
+
+
+/*Configurações específicas para a página de login*/
+
+
+section.login {
+    border-radius: 15px;
+    border: 1px solid #d9dadb;
+    display: block;
+    margin: 6rem auto 4rem auto;
+    background-color: #E8EBF7;
+    width: 500px;
+    height: 500px;
+    box-shadow: 10px 10px 10px rgb(174, 176, 184);
+}
+
+section.login > header.login {
+    border-radius: 15px;
+    width: 100%;
+    height: 6rem;
+    background-color: #37393A;
+    padding-top: 1rem;
+}
+
+section.login > header.login > h1 {
+    font-size: 2rem;
+    font-family: 'Shantell Sans', cursive;
+    text-align: center;
+    color: #44BBA4;
+}
+
+section.login > header.login > p {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+section.login > form.login {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 120px;
+    font-size: 30px;
+}
+
+section.login > form.login > input{
+    width: 350px;
+    height: 30px;
+}
+
+section.login > form.login > input#senha{
+    width: 350px;
+    height: 30px;
+    margin-left: 15px;
+}
+
+section.login > form.login > input#entrar {
+    width: 80px;
+    border-radius: 5px;
+    border: 1px solid #26af64;
+    background-color: #2bcc73;
 }
